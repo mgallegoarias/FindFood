@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"/>-->
+            <Button android:text="@string/print_latitude" 
+                android:id="@+id/Button" 
+                android:onClick="printLatitud"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content">
+            </Button>
+    
+    
+    <com.google.android.maps.MapView
+    android:id="@+id/mapa"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:apiKey="0Rbfs5yBXPeWpT5kME0F9qTfxGFmTLrTQidnEpA"
+    android:clickable="true" />
+
+</LinearLayout>
